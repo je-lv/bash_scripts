@@ -1,6 +1,6 @@
 #!/bin/sh
 domain=$1
-threads=$3
+threads=$2
 
 if [ -z "$1" ];then
 echo "[!] Es necesario agregar un dominio.";
